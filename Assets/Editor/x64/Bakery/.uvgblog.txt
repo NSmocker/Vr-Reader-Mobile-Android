@@ -1,0 +1,100 @@
+2020-7-11
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\Nicoras\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0
+Running ftrace addmul "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Nicoras\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/UnityProjects/VR Reader Mobile/Assets/BakeryLightmaps/SampleScene_LM0_final.hdr"
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\Nicoras\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 34 0 0
+Running ftrace lodselect "C:\Users\Nicoras\AppData\Local\Temp\frender" "lodselect" 2 0 0
+Running ftrace sun "C:\Users\Nicoras\AppData\Local\Temp\frender" "light_-611325656_0" 4 0 0
+Running ftrace addmul "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "SampleScene_LM0_lights_HDR.lz4" vbTraceTex0.bin
+Running denoiser "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Nicoras\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/UnityProjects/VR Reader Mobile/Assets/Scenes/SampleScene/SampleScene_LM0_final.hdr"
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\Nicoras\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 34 0 0
+Running ftrace lodselect "C:\Users\Nicoras\AppData\Local\Temp\frender" "lodselect" 2 0 0
+Running ftrace sun "C:\Users\Nicoras\AppData\Local\Temp\frender" "light_-1147820146_0" 4 0 0
+Running ftrace addmul "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex0.bin
+Running ftrace texgi "C:\Users\Nicoras\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "SampleScene_LM0_lights_HDR.lz4" vbTraceTex0.bin
+Running denoiser "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Nicoras\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\Nicoras\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "D:/UnityProjects/VR Reader Mobile/Assets/Scenes/SampleScene/SampleScene_LM0_final.hdr"
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\VR Reader Mobile\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll

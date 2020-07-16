@@ -61,3 +61,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Textures/monks_forest_8k.hdr
+Assets/Textures/monks_forest_8k.hdr.meta
+Assets/Editor/x64/Bakery/cudnn64_7.dll
