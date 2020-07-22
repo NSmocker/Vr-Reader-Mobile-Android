@@ -20,6 +20,6 @@ public class BookUIFixer : MonoBehaviour
             child.rotation = child.parent.rotation ;
 
         }
-      
+       
     }
 }

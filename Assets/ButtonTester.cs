@@ -18,9 +18,7 @@ public class ButtonTester : MonoBehaviour
     {
         text_totest.text = "Button Fire1 is:" + Input.GetButton("Fire1").ToString();
 
-        if (Input.GetButtonDown("Fire1") || Input.touchCount > 0)
-        { VrInputModule.m_ClickAction = true; }
-        else { VrInputModule.m_ClickAction = false; }
+    
 
 
     }

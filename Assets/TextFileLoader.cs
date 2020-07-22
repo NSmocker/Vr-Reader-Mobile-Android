@@ -13,15 +13,15 @@ public class TextFileLoader : MonoBehaviour
 {
     public string text;
     public FileBrowser browser;
-    public TMP_InputField book_text;
+    public TMP_Text book_text;
     public List<string> pages = new List<string>();
-    public int line_counter=0;
+    public int line_counter = 0;
     public int pages_count;
 
     [Header("Display page")]
     public int current_page;
-    public Text current_page_ui;
-    public Text title_ui;
+    public TMP_Text current_page_ui;
+    public TMP_Text title_ui;
 
 
 
@@ -31,9 +31,9 @@ public class TextFileLoader : MonoBehaviour
 
 
 
-    public void NextPage() 
+    public void NextPage()
     {
-        if (Book_is_Loaded) 
+        if (Book_is_Loaded)
         {
             current_page++;
             DisplayCurrentPage();
@@ -48,22 +48,24 @@ public class TextFileLoader : MonoBehaviour
         }
     }
 
-    public void DisplayCurrentPage() 
+    public void DisplayCurrentPage()
     {
-        if (Book_is_Loaded) 
+        if (Book_is_Loaded)
         {
             if (current_page > pages_count) current_page = pages_count;
             if (current_page < 0) current_page = 0;
 
+            current_page_ui.text = current_page.ToString();
             try { book_text.text = pages[current_page]; }
-            catch (Exception e) { book_text.text = e.Message;  }
+            catch (Exception e) { book_text.text = e.Message; }
 
 
 
         }
     }
     // Start is called before the first frame update
-    IEnumerator Fade()
+   
+    public void LoadFileToBook()
     {
         var fs = new FileStream(browser.AddressPath + browser.FileName, FileMode.Open, FileAccess.Read);
         var sr = new StreamReader(fs, Encoding.UTF8);
@@ -74,16 +76,17 @@ public class TextFileLoader : MonoBehaviour
         {
 
             text += line;
-            line_counter++;
+       
 
-            if (line_counter >= 50) 
+            if (text.Length >= 900)
             {
-                line_counter = 0;
+                //line_counter = 0;
                 pages.Add(text);
                 text = "";
             }
 
         }
+        fs.Close();
         line_counter = 0;
         pages.Add(text);
         text = "";
@@ -91,21 +94,16 @@ public class TextFileLoader : MonoBehaviour
         book_text.text = pages[0];
         Book_is_Loaded = true;
         title_ui.text = browser.FileName;
-        yield return null;
-    }
-    public void LoadFileToBook() 
-    {
-        StartCoroutine(Fade());      
     }
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        current_page_ui.text = current_page.ToString();
-        
+      
+
     }
 }

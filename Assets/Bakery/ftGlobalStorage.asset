@@ -419,4 +419,9 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
   - Assets/3Dmodels/Trees/23.obj
-  uvOverlapAssetList: 00000000ffffffff01010000
+  - Assets/3Dmodels/Clocl.FBX
+  - "Assets/3Dmodels/BookGrop/\u043A\u043D\u0438\u0433\u0430.fbx"
+  - Assets/3Dmodels/bookchallenge.fbx
+  - Assets/3Dmodels/PaladinBook.fbx
+  - Assets/3Dmodels/Reading book/Textured.obj
+  uvOverlapAssetList: 00000000ffffffff010100000101000001010000010100000101000001010000

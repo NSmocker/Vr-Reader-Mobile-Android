@@ -8,10 +8,10 @@ public class VrInputModule : BaseInputModule
 {
 
     public Camera m_Camera;
-    public static bool m_ClickAction;
+    public  bool m_ClickAction;
 
-    GameObject m_CurrentObject = null;
-    PointerEventData m_Data = null;
+    public  GameObject m_CurrentObject = null;
+    public PointerEventData m_Data = null;
     protected override void Awake()
     {
         base.Awake();
@@ -32,6 +32,7 @@ public class VrInputModule : BaseInputModule
         m_CurrentObject = m_Data.pointerCurrentRaycast.gameObject;
         m_RaycastResultCache.Clear();
         HandlePointerExitAndEnter(m_Data, m_CurrentObject);
+
         if (m_ClickAction==true) ProcessPress(m_Data);
         if (m_ClickAction==false) ProcessRelease(m_Data);
 
